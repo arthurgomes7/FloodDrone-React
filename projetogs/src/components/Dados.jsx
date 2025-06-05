@@ -8,7 +8,7 @@ function Dados() {
     <>
       <div className='p-5'>
           <div className='p-5'>
-            <h1 className='text-white text-4xl font-semibold text-center'>Dados do Mercado</h1>
+            <h1 className='text-white text-4xl font-semibold text-center xl:text-6xl p-5'>Dados do Mercado</h1>
           </div>
           <div className='flex flex-col gap-5 xl:justify-center xl:items-center xl:gap-10'>
             <div className='flex flex-col gap-5 xl:flex-row xl:gap-10'>

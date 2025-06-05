@@ -11,7 +11,7 @@ function Solucao() {
   return (
     <>
       <div className='p-5 flex flex-col gap-5 xl:p-40 xl:gap-10'>
-        <h1 className='text-white text-4xl font-semibold text-start'>Sobre o Projeto</h1>
+        <h1 className='text-white text-4xl font-semibold text-start xl:text-6xl'>Sobre o Projeto</h1>
         <div className='flex flex-col gap-5 md:flex-row xl:gap-20'>
             <div className="relative h-64 w-full">
                 <div
