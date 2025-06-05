@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../App.css';
 import droneLogo from '../assets/droneLogo.png'
+import { Link } from 'react-router-dom';
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +29,9 @@ function Nav() {
           <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'>Sobre</a></li>
         </ul>
         <div className="hidden md:block">
-          <h5 className='bg-blue-600 text-center rounded-2xl px-5 py-1'><a href="">Login</a></h5>
+          <h5 className='bg-blue-600 text-center rounded-2xl px-5 py-1'><a href="">
+            <Link to='/login'>Login</Link></a>
+            </h5>
         </div>
       </div>
 
