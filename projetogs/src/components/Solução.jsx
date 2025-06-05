@@ -10,12 +10,12 @@ function Solucao() {
 
   return (
     <>
-      <div className='p-5 flex flex-col gap-5'>
+      <div className='p-5 flex flex-col gap-5 xl:p-40 xl:gap-10'>
         <h1 className='text-white text-4xl font-semibold text-start'>Sobre o Projeto</h1>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 md:flex-row xl:gap-20'>
             <div className="relative h-64 w-full">
                 <div
-                    className="absolute inset-0 bg-cover bg-center opacity-50 rounded-4xl"
+                    className="absolute inset-0 bg-cover bg-center opacity-30 rounded-4xl"
                     style={{ backgroundImage: `url(${nuvems})` }}
                 ></div>
                 <div className="relative z-10 flex items-center justify-center h-full flex-col gap-3">
@@ -25,29 +25,29 @@ function Solucao() {
             </div>
             <div className="relative h-64 w-full">
                 <div
-                    className="absolute inset-0 bg-cover bg-center opacity-50 rounded-4xl"
+                    className="absolute inset-0 bg-cover bg-center opacity-30 rounded-4xl"
                     style={{ backgroundImage: `url(${enchente})` }}
                 ></div>
-                <div className="relative z-10 flex items-center justify-center h-full flex-col gap-3">
+                <div className="relative z-10 flex items-center justify-center h-full flex-col gap-3 md:">
                     <h2 className="text-white text-2xl font-bold"><i class="fi fi-rr-drone text-blue-400"></i> Como Funciona na Prática</h2>
                     <p className='text-white text-center'>Drones autônomos sobrevoam áreas vulneráveis e monitoram em tempo real as condições do clima e do ambiente. Com os dados coletados, o sistema identifica padrões que indicam risco iminente de fortes chuvas e inundações, permitindo uma análise mais rápida e precisa do que métodos fixos ou remotos..</p>
                 </div>
             </div>
         </div>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 md:flex-row xl:gap-20'>
             <div className="relative h-64 w-full">
                 <div
-                    className="absolute inset-0 bg-cover bg-center opacity-50 rounded-4xl"
+                    className="absolute inset-0 bg-cover bg-center opacity-30 rounded-4xl"
                     style={{ backgroundImage: `url(${alertas})` }}
                 ></div>
                 <div className="relative z-10 flex items-center justify-center h-full flex-col gap-3">
-                    <h2 className="text-white text-2xl font-bold"><i class="fi fi-rr-engine-warning text-yellow-400"></i> Sistema de Alerta Antecipado</h2>
+                    <h2 className="text-white text-2xl font-bold md:text-center"><i class="fi fi-rr-engine-warning text-yellow-400"></i> Sistema de Alerta Antecipado</h2>
                     <p className='text-white text-center'>Quando há risco identificado, o sistema envia alertas para autoridades e, se necessário, diretamente à população. O foco está na agilidade e na confiabilidade, reduzindo alarmes falsos e garantindo tempo hábil para ações preventivas.</p>
                 </div>
             </div>
             <div className="relative h-64 w-full">
                 <div
-                    className="absolute inset-0 bg-cover bg-center opacity-50 rounded-4xl"
+                    className="absolute inset-0 bg-cover bg-center opacity-30 rounded-4xl"
                     style={{ backgroundImage: `url(${comunidade})` }}
                 ></div>
                 <div className="relative z-10 flex items-center justify-center h-full flex-col gap-3">
