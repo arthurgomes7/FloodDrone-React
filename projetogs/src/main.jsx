@@ -5,6 +5,7 @@ import Nav from './components/Nav.jsx'
 import Dados from './components/Dados.jsx'
 import Solucao from './components/Solução.jsx'
 import Tecnologias from './components/Tecnologias.jsx'
+import Footer from './components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Dados></Dados>
     <Solucao></Solucao>
     <Tecnologias></Tecnologias>
+    <Footer></Footer>
   </StrictMode>,
 )
