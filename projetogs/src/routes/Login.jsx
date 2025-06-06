@@ -11,6 +11,10 @@ function Login() {
     console.log('Senha:', senha);
   };
 
+  function buttonClick() {
+    alert('Prontinho, você está logado!')
+}
+
   return (
     <div className="min-h-screen flex items-center justify-center p-5">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-md p-8">
@@ -28,7 +32,7 @@ function Login() {
               onChange={(e) => setSenha(e.target.value)}
               required
             /></div><button
-            type="submit"
+            type="submit" onClick={buttonClick}
             className="w-full bg-blue-500 text-white py-2 rounded-xl hover:bg-blue-600 transition"
           >
             Entrar

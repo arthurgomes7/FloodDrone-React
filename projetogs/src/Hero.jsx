@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import drone from './assets/drone.png'
+import { Link } from 'react-router-dom';
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
             </div>
           </div>
           <div>
-            <a href="#"><button className='flex bg-blue-500 text-white font-light p-2 rounded-xl text-base items-center gap-2'><i class="fi fi-sr-play"></i> Veja como Funciona</button></a>
+            <a href="#"><button className='flex bg-blue-500 text-white font-light p-2 rounded-xl text-base items-center gap-2'><i class="fi fi-sr-play"></i> <Link to='/tecno'>Veja como Funciona</Link></button></a>
           </div>
         </div>
         <div className='flex p-5 gap-2 xl:px-50 xl:gap-10'>
