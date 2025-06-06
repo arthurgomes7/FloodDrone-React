@@ -43,7 +43,7 @@ function Nav() {
             <li><a href="#">Solução</a></li>
             <li><a href="#">Tecnologias</a></li>
             <li><a href="#">Sobre</a></li>
-            <li className='bg-blue-600 text-center rounded-2xl'><a href="#">Login</a></li>
+            <li className='bg-blue-600 text-center rounded-2xl'><a href="#"><Link to='/login'>Login</Link></a></li>
           </ul>
         </div>
       )}
