@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../App.css';
 import droneLogo from '../assets/droneLogo.png'
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -14,10 +15,10 @@ function Footer() {
             <div>
                 <h2 className='text-blue-400 font-bold text-lg py-2'>Caminhos</h2>
                 <ul className="text-white text-center md:flex-col gap-10 md:text-start">
-                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'>Dados</a></li>
-                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'>Solução</a></li>
-                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'>Tecnologia</a></li>
-                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'>Sobre</a></li>
+                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'><Link to='/dados'>Dados</Link></a></li>
+                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'><Link to='/soluction'>Solução</Link></a></li>
+                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'><Link to='tecno'>Tecnologia</Link></a></li>
+                    <li><a href="#" className='bg-gradient-to-r from-black to-blue-500 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px]'><Link to='sobre'>Sobre</Link></a></li>
                 </ul>
             </div>
             <div>

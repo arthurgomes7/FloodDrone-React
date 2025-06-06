@@ -16,7 +16,7 @@ function Tecnologias() {
   };
 
   return (
-    <div className='p-5'>
+    <div className='p-10'>
         <h1 className='text-white text-4xl font-semibold text-center py-2 xl:text-6xl'>Tecnologias</h1>
         <div>
             <div className="mx-auto">

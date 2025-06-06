@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import '../App.css'
-import Solucao from '../components/Solução';
+import Dados from '../components/Dados';
 import { Link } from 'react-router-dom';
 
 
-function Sobre() {
+function Data() {
   
   return (
     <>
@@ -13,9 +13,9 @@ function Sobre() {
             <Link to='/'>Página Inicial</Link>
         </button>
     </div>
-    <Solucao></Solucao>
+    <Dados></Dados>
     </>
   )
 }
 
-export default Sobre
+export default Data

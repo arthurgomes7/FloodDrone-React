@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import '../App.css'
-import Solucao from '../components/Solução';
+import Tecnologias from '../components/Tecnologias';
 import { Link } from 'react-router-dom';
 
 
-function Sobre() {
+function Tecno() {
   
   return (
     <>
@@ -13,9 +13,9 @@ function Sobre() {
             <Link to='/'>Página Inicial</Link>
         </button>
     </div>
-    <Solucao></Solucao>
+    <Tecnologias></Tecnologias>
     </>
   )
 }
 
-export default Sobre
+export default Tecno
